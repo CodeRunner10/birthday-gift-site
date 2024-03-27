@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    font-family: rossten;
+    font-size: 25px;
+    background: url(images/pinkbg.jpg);
+    color: #ffc300;
+}
+
+@font-face {
+  font-family: rossten;
+  src: url(rossten.ttf);
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 5px black;
+    
+}
+
+#dianaross-img {
+    width: 300px;
+    border-radius: 50%;
+    border: 6px solid;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #ff0a54;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ff0a54;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 10px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 500px;
+}
+
+.gift-img {
+    margin: 0px auto;
+    max-width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    background-image: url("images/giftbox.png");
+    background-size: cover;
+}
+
+#godiva-img-happy:hover {
+    background-image: url("images/godiva.webp")
+    
+}
+    
+#love-img:hover {
+    background-image: url("images/weloveyou.webp");
+}
+
+#celebrate-img:hover {
+    background-image: url("images/dance.webp");
+}
+
+#award-img:hover {
+    background-image: url("images/award.webp");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/poping.webp");
+}
+
+#footer {
+    font-style: italic;
+    font-size: larger;
+    width: 500px;
+    margin: 10px auto 10px;
+    background: #ff0a54;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
